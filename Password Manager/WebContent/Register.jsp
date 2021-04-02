@@ -3,12 +3,7 @@
     <%
 
 	response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
-	HttpSession session1 = request.getSession();
-if(session1.getAttribute("UserName") == null){
-	response.sendRedirect("SignIn.jsp");
-
-
-}
+	
 %>
 <!DOCTYPE html>
 <html>
